@@ -1,19 +1,23 @@
-# Employee-Attrition-Prediction
+# Employee Attrition Prediction
 
-Attrition is the silent killer that can switly disable even the most successful and stable of the organizations in a shockingly spare amount of time. Hiring new employees are extremely complex task that requires capital, time and skills.Also new employee costs a lot more than that Persons salary.
+Employee attrition is one of the biggest challenges for organizations, as losing skilled employees is costly in terms of recruiting, training, and productivity. 
+Studies show that it can take 6+ months for a company to break even on a new hire, making employee retention strategies crucial.
 
-The cost of hiring an employee goes far beyond just paying for their salary to encompass recruiting, training, benefits, and more.
-Small companies spent, on average, more than $1,500 on training, per employee, in 2019.
-Integrating a new employee into the organization can also require time and expenditures.
-It can take up to six months or more for a company to break even on its investment in a new hire.
-The Cost of Hiring a New Employee - Investopedia
+In this project, I developed a **predictive machine learning model** to identify employees at risk of leaving, enabling organizations to take proactive retention measures.
 
-In this project, I have developed a Machine Learning Model to predict the Employee Attrition by implementing various Machine Learning Algorithms. Conducted exploratory data analysis using various data visualization techniques.
+---
 
-Achieved good accuracy on the 'IBM HR Analytics Employee Attrition & Performance' dataset from Kaggle,using Logistic Regression.
+## 📊 Project Overview
+- **Dataset**: [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+- **Techniques**:
+  - Exploratory Data Analysis (EDA) using Seaborn, Matplotlib, Pandas
+  - Feature engineering (categorical encoding, scaling, and feature importance extraction)
+  - Model building using **Random Forest** and **XGBoost**
+- **Goal**: Predict which employees are likely to leave the organization
+- **Accuracy Achieved**: ~85%
 
-Dataset Link - IBM HR Analytics Employee Attrition & Performance
+---
 
-Made a WEB API using Flask framework and deployed it on Heroku cloud platform. Below is the link to access the API.
-
-Web API - Employee Attrition
+## 🚀 Tech Stack
+- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, XGBoost)
+- Jupyter Notebook
